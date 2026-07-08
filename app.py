@@ -72,11 +72,7 @@ if hobby in hobby_facts:
 else:
     st.warning("No fun fact available for this hobby yet.")
 
-# Slider
-level = st.slider("Choose a level", 1, 5)
-st.write(f"Your level: {get_level_description(level)}")
-
-# Slider - original
+#Slider - original
 level = st.slider("Choose a level", 1, 5)
 st.write(f"Selected level: {level}")
 
